@@ -8,7 +8,7 @@
         </div>
         <div class="row">
             <div class="col-xs-6">
-                <p class="text-muted">&copy; 2008–<?=date('Y')?>&nbsp;Храм Рождества Иоанна Предтечи</p>
+                <p class="text-muted">&copy; 2008–<?=date('Y')?> ООО "Компания"</p>
             </div>
             <div class="col-xs-6">
                 <p class="text-muted text-right">

@@ -1,5 +1,5 @@
 <?
-define("SITE_TITLE", "Храм Рождества Иоанна Предтечи");
-define("SITE_DIR", "/prototype/");
-define("SITE_TEMPLATE_PATH", "/prototype/");
+define("SITE_TITLE", "Компания");
+define("SITE_DIR", "/");
+define("SITE_TEMPLATE_PATH", "/");
 ?>

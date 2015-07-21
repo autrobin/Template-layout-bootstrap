@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta content='index, follow' name='robots'>
-    <meta name=description content="Сайт Храма Рождества Иоанна Предтечи в Ивановском">
+    <meta name=description content="Компания">
     <meta content='keyword1, keyword2' name='keywords'>
     <link rel="apple-touch-icon" sizes="57x57" href="<?=SITE_TEMPLATE_PATH?>favicon/apple-icon-57x57.png">
     <link rel="apple-touch-icon" sizes="60x60" href="<?=SITE_TEMPLATE_PATH?>favicon/apple-icon-60x60.png">

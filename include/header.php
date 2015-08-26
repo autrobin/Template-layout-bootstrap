@@ -35,11 +35,6 @@
         <script src="<?=SITE_TEMPLATE_PATH?>js/ie9/html5shiv-printshiv.min.js"></script>
         <script src="<?=SITE_TEMPLATE_PATH?>js/ie9/respond.js"></script>
     <![endif]-->
-    <!-- Bootstrap CSS -->
-    <link href="<?=SITE_TEMPLATE_PATH?>css/bootstrap.min.css" rel="stylesheet">
-    <!-- Font Awesome -->
-    <link href="<?=SITE_TEMPLATE_PATH?>css/font-awesome.min.css" rel="stylesheet">
-    <!-- Customize property CSS -->
     <link href="<?=SITE_TEMPLATE_PATH?>css/style.min.css" rel="stylesheet">
 </head>
 <body>

@@ -1,9 +1,11 @@
 <?
    require_once "include/config.php.inc";
    require_once "include/define.php.inc";
-   $namePage = "Главная";
+   $namePage = "Шаблонная страница";
    $title = SITE_TITLE." | ".$namePage;
    require_once "include/header.php";
 ?>
-    <!-- Содержимое страницы -->
+<div class="container">
+   <!-- Содержимое страницы -->
+</div>
 <?require_once "include/footer.php";?>

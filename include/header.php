@@ -40,7 +40,7 @@
 <body>
     <header role="banner">
         <!-- Fixed navbar -->
-        <div class="navbar navbar-default navbar-fixed-top" role="navigation">
+        <div class="navbar navbar-default" role="navigation">
             <div class="container">
                 <div class="navbar-header">
                     <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
@@ -81,5 +81,3 @@
             <li class="active"><?=$namePage?></li>
         </ol>
     </div>
-    <!-- Begin page content -->
-    <div class="container">

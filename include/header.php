@@ -24,18 +24,13 @@
     <meta name="msapplication-TileColor" content="#ffffff">
     <meta name="msapplication-TileImage" content="<?=SITE_TEMPLATE_PATH?>favicon/ms-icon-144x144.png">
     <meta name="theme-color" content="#ffffff">
-    <!-- jQuery -->
-    <script src="<?=SITE_TEMPLATE_PATH?>js/jquery.min.js"></script>
-    <!-- Bootstrap JavaScript -->
-    <script src="<?=SITE_TEMPLATE_PATH?>js/bootstrap.min.js"></script>
-    <!-- User JavaScript -->
-    <script src="<?=SITE_TEMPLATE_PATH?>js/script.js"></script>
-    <!--[if lt IE 9]>
-        <script src="<?=SITE_TEMPLATE_PATH?>js/ie9/html5shiv.min.js"></script>
-        <script src="<?=SITE_TEMPLATE_PATH?>js/ie9/html5shiv-printshiv.min.js"></script>
-        <script src="<?=SITE_TEMPLATE_PATH?>js/ie9/respond.js"></script>
-    <![endif]-->
-    <link href="<?=SITE_TEMPLATE_PATH?>css/style.min.css" rel="stylesheet">
+    <link href="<?=SITE_TEMPLATE_PATH?>css/styles.min.css" rel="stylesheet">
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"
+            integrity="sha256-ZosEbRLbNQzLpnKIkEdrPv7lOy9C27hHQ+Xp8a4MxAQ=" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"
+            integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS"
+            crossorigin="anonymous"></script>
+    <script src="<?= SITE_TEMPLATE_PATH ?>js/script.min.js"></script>
 </head>
 <body>
     <header role="banner">

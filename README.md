@@ -43,10 +43,31 @@
 │   └── variables.less  
 └── template.php  
 
-##Поддержка совместимости bootstrap 3 с Internet Explorer меньшей или равной версии 9 посредством CDN в файле /include/header.php:
+##Подключение js файлов через CDN в файле /include/header.php:
 
-    <!--[if lt IE 9]>
-        <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
-        <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"
+            integrity="sha256-ZosEbRLbNQzLpnKIkEdrPv7lOy9C27hHQ+Xp8a4MxAQ=" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"
+            integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS"
+            crossorigin="anonymous"></script>
+    <script src="<?= SITE_TEMPLATE_PATH ?>js/script.min.js"></script>
+     <!--[if lt IE 9]>
+        <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.min.js"></script>
+        <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv-printshiv.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/respond/1.4.2/respond.min.js" integrity="sha256-g6iAfvZp+nDQ2TdTR/VVKJf3bGro4ub5fvWSWVRi2NE=" crossorigin="anonymous"></script>
     <![endif]-->
 
+##Подключение js файлов без использования CDN в файле /include/header.php:
+
+    <!-- jQuery -->
+    <script src="<?=SITE_TEMPLATE_PATH?>js/jquery.min.js"></script>
+    <!-- Bootstrap JavaScript -->
+    <script src="<?=SITE_TEMPLATE_PATH?>js/bootstrap.min.js"></script>
+    <!-- User JavaScript -->
+    <script src="<?=SITE_TEMPLATE_PATH?>js/script.min.js"></script>
+    <!--[if lt IE 9]>
+        <script src="<?=SITE_TEMPLATE_PATH?>js/ie9/html5shiv.min.js"></script>
+        <script src="<?=SITE_TEMPLATE_PATH?>js/ie9/html5shiv-printshiv.min.js"></script>
+        <script src="<?=SITE_TEMPLATE_PATH?>js/ie9/respond.js"></script>
+    <![endif]-->
+    
